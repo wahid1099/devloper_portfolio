@@ -9,8 +9,9 @@ h1 {
   color: rgb(248, 58, 0);
   /* font-family: 'Festive', cursive;*/
 }
-section {
+.flexibale-content {
   display: flex;
+  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -31,4 +32,9 @@ section {
 .topbanner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
